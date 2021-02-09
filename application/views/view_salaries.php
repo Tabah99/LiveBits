@@ -4,34 +4,35 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Webarch - Responsive Admin Dashboard</title>
+    <title>LiveBits - Office Management System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="" name="description" />
     <meta content="" name="author" />
     <!-- BEGIN PLUGIN CSS -->
     <link href="<?= base_url('assets/plugins/font-awesome/css/font-awesome.css')?>" rel="stylesheet" type="text/css" />
-    <link href="<?= base_url('assets/plugins/jquery-metrojs/MetroJs.min.css')?>" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/plugins/shape-hover/css/demo.css')?>" />
-    <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/plugins/shape-hover/css/component.css" />
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/plugins/owl-carousel/owl.carousel.css')?>" />
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/plugins/owl-carousel/owl.theme.css')?>" />
-    <link href="<?= base_url('assets/plugins/pace/pace-theme-flash.css')?>" rel="stylesheet" type="text/css" media="screen" />
-    <link href="<?= base_url('assets/plugins/jquery-slider/css/jquery.sidr.light.css')?>" rel="stylesheet" type="text/css" media="screen" />
-    <link rel="stylesheet" href="<?= base_url('assets/plugins/jquery-ricksaw-chart/css/rickshaw.css')?>" type="text/css" media="screen">
-    <link rel="stylesheet" href="<?= base_url('assets/plugins/Mapplic/mapplic/mapplic.css')?>" type="text/css" media="screen">
+    <link href="<?= base_url('/assets/plugins/jquery-metrojs/MetroJs.min.css')?>" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url('../assets/plugins/shape-hover/css/demo.css')?>" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url('../assets/plugins/shape-hover/css/component.css')?>" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url('/assets/plugins/owl-carousel/owl.carousel.css')?>" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url('/assets/plugins/owl-carousel/owl.theme.css')?>" />
+    <link href="<?= base_url('/assets/plugins/pace/pace-theme-flash.css')?>" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?= base_url('/assets/plugins/jquery-slider/css/jquery.sidr.light.css')?>" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?= base_url('/assets/plugins/jquery-ricksaw-chart/css/rickshaw.css')?>" type="text/css" media="screen">
+    <link rel="stylesheet" href="<?= base_url('/assets/plugins/Mapplic/mapplic/mapplic.css')?>" type="text/css" media="screen">
     <!-- END PLUGIN CSS -->
     <!-- BEGIN PLUGIN CSS -->
-    <link href="<?= base_url('assets/plugins/pace/pace-theme-flash.css')?>" rel="stylesheet" type="text/css" media="screen" />
-    <link href="<?= base_url('assets/plugins/bootstrapv3/css/bootstrap.min.css')?>" rel="stylesheet" type="text/css" />
-    <link href="<?= base_url('assets/plugins/bootstrapv3/css/bootstrap-theme.min.css')?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url('/assets/plugins/pace/pace-theme-flash.css')?>" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?= base_url('/assets/plugins/bootstrapv3/css/bootstrap.min.css')?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url('/assets/plugins/bootstrapv3/css/bootstrap-theme.min.css')?>" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="<?= base_url('assets/plugins/animate.min.css')?>" rel="stylesheet" type="text/css" />
-    <link href="<?= base_url('assets/plugins/jquery-scrollbar/jquery.scrollbar.css')?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url('/assets/plugins/animate.min.css')?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url('/assets/plugins/jquery-scrollbar/jquery.scrollbar.css')?>" rel="stylesheet" type="text/css" />
     <!-- END PLUGIN CSS -->
     <!-- BEGIN CORE CSS FRAMEWORK -->
-    <link href="<?= base_url('webarch/css/webarch.css')?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url('/assets/webarch/css/webarch.css')?>" rel="stylesheet" type="text/css" />
     <!-- END CORE CSS FRAMEWORK -->
   </head>
+
 
   <body class="">
     <!-- BEGIN HEADER -->
@@ -218,7 +219,7 @@ else{
 </div></div></div></div></div>
 
 
-    <script src="<?= base_url('assets/plugins/pace/pace.min.js')?>" type="text/javascript"></script>
+   <script src="<?= base_url('assets/plugins/pace/pace.min.js')?>" type="text/javascript"></script>
     <!-- BEGIN JS DEPENDECENCIES-->
     <script src="<?= base_url('assets/plugins/jquery/jquery-1.11.3.min.js')?>" type="text/javascript"></script>
     <script src="<?= base_url('assets/plugins/bootstrapv3/js/bootstrap.min.js')?>" type="text/javascript"></script>
@@ -230,7 +231,7 @@ else{
     <script src="<?= base_url('assets/plugins/bootstrap-select2/select2.min.js')?>" type="text/javascript"></script>
     <!-- END CORE JS DEPENDECENCIES-->
     <!-- BEGIN CORE TEMPLATE JS -->
-    <script src="<?= base_url('webarch/js/webarch.js')?>" type="text/javascript"></script>
+    <script src="<?= base_url('assets/webarch/js/webarch.js')?>" type="text/javascript"></script>
     <script src="<?= base_url('assets/js/chat.js')?>" type="text/javascript"></script>
     <!-- END CORE TEMPLATE JS -->
     <!-- BEGIN PAGE LEVEL JS -->
@@ -241,7 +242,7 @@ else{
     <script src="<?= base_url('assets/plugins/jquery-sparkline/jquery-sparkline.js')?>"></script>
     <script src="<?= base_url('assets/plugins/skycons/skycons.js')?>"></script>
     <script src="<?= base_url('assets/plugins/owl-carousel/owl.carousel.min.js')?>" type="text/javascript"></script>
-    <script type="text/javascript" src="<?= base_url('https://maps.google.com/maps/api/js?sensor=true')?>"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="<?= base_url('assets/plugins/jquery-gmap/gmaps.js')?>" type="text/javascript"></script>
     <script src="<?= base_url('assets/plugins/Mapplic/js/jquery.easing.js')?>" type="text/javascript"></script>
     <script src="<?= base_url('assets/plugins/Mapplic/js/jquery.mousewheel.js')?>" type="text/javascript"></script>
@@ -253,7 +254,7 @@ else{
     <!-- BEGIN CORE TEMPLATE JS -->
     <script src="<?= base_url('assets/js/dashboard_v2.js')?>" type="text/javascript"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="../../www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
